@@ -178,7 +178,6 @@ WFLAG += \
 	-Wno-unused-parameter \
 	-Wpedantic \
 	-fomit-frame-pointer \
-	-mabi=aapcs \
 	-fno-unroll-loops \
 	-ffast-math \
 	-ftree-vectorize \

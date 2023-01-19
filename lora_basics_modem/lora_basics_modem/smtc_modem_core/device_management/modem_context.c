@@ -1713,7 +1713,7 @@ void modem_context_factory_reset( void )
     smtc_modem_hal_context_store( CONTEXT_MODEM, ( uint8_t* ) &ctx, sizeof( ctx ) );
 
     // dummy context reading to ensure context store is done before exiting the function
-    smtc_modem_hal_context_restore( CONTEXT_LR1MAC, ( uint8_t* ) &ctx, sizeof( ctx ) );
+    smtc_modem_hal_context_restore( CONTEXT_MODEM, ( uint8_t* ) &ctx, sizeof( ctx ) );
 
     is_modem_reset_requested = true;
     SMTC_MODEM_HAL_TRACE_INFO( "modem_context_factory_reset done\n" );

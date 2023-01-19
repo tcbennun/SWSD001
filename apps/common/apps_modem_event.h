@@ -45,6 +45,7 @@ extern "C" {
  * --- DEPENDENCIES ------------------------------------------------------------
  */
 
+#include <stddef.h>
 #include <stdint.h>
 #include "smtc_modem_api.h"
 #include "smtc_modem_middleware_advanced_api.h"
